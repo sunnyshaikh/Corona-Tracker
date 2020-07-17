@@ -1,0 +1,147 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1585818104293-abd93d9a6ec5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+  background-attachment: fixed;
+}
+
+.hero .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 4rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.hero h1 span {
+  color: #03b803;
+}
+
+.worldwide_status {
+  width: 100%;
+}
+
+.worldwide_status h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 3.2rem;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.worldwide_status a {
+  display: inline-block;
+  background-color: #0095f6;
+  padding: 12px 28px;
+  margin-top: 1rem;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.worldwide_status a:hover {
+  background-color: #0077bb;
+}
+
+.status {
+  background-color: #ffffffde;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 1.2rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.status h3 {
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #b4b4b4;
+  font-size: 1.6rem;
+}
+.status p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 588px) {
+  .navbar a {
+    font-size: 0.6rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    width: 98%;
+    line-height: 1.5;
+  }
+
+  .worldwide_status h2 {
+    font-size: 1.5rem;
+  }
+
+  .status {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: 1rem;
+  }
+
+  .status h3 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .status p {
+    font-size: 0.85rem;
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar a {
+    font-size: 0.6rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    width: 98%;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+  }
+
+  .worldwide_status h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero .container {
+    justify-content: space-evenly;
+  }
+
+  .status h3 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .status p {
+    font-size: 0.85rem;
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+}

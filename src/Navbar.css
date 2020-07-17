@@ -1,0 +1,14 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  z-index: 9999;
+}
+
+.navbar a {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #c0c0c0;
+}
