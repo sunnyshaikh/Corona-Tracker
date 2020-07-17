@@ -18,6 +18,8 @@ code {
     monospace;
 }
 
+/* default container styling */
+
 .container {
   margin: 0 auto;
   width: 950px;

@@ -16,6 +16,7 @@ function Hero() {
 
   return (
     <div className="hero">
+      {/* world wide status here */}
       <div className="container">
         <h1>
           Stay <span>Home</span> Stay <span>Safe</span>
@@ -37,6 +38,7 @@ function Hero() {
               <p className="counter">{state.TotalRecovered}</p>
             </div>
           </div>
+          {/* country status link */}
           <a href="#content">Check Country Status</a>
         </div>
       </div>

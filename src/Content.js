@@ -22,6 +22,7 @@ function Content() {
       <p style={{ textAlign: "center", marginBottom: ".5rem" }}>
         {state.length} results found
       </p>
+      {/* Showing details in table format */}
       <div className="table">
         <table cellSpacing="0">
           <thead>
